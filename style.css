@@ -24,12 +24,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 20px;
     /* border: 1px solid red; */
 }
 
 .nav-left{
-    width: 20%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,12 +44,13 @@ nav{
 }
 
 .google-img{
-    width: 35%;
+    width: 30%;
 }
 
 .search-box{
+    /* background-color: yellow; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     width: 40%;
     border: 1px solid lightgray;
     border-radius: 16px;
@@ -58,6 +59,11 @@ nav{
 
 .search-box input{
     border: none;
+    width: 80%;
+}
+
+.search-box:hover{
+    box-shadow: 5px 3px 3px 3px #f5f5f0;
 }
 
 button{
@@ -68,6 +74,11 @@ button{
     margin: 10px;
 }
 
+.btn-box{
+    margin-bottom: 150px;
+
+}
+
 footer{
     height: 100px;
     width: 100%;
@@ -76,7 +87,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 25px;
 }
 
 .footer-links{
@@ -88,9 +99,17 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 35%;
+}
+
+.links-left a, .links-right a{
+    font-size: .8em;
 }
 
 footer p{
     text-align: center;
+}
+
+.material-icons{
+    padding: 0 5px;
 }
